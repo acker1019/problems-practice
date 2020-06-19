@@ -1,5 +1,14 @@
 # -*- coding: utf-8 -*-
 
+'''
+problems:
+Several detectors are located in different places with Cartesian coordinates.
+Each of the detectors get their own signal transmission radius.
+Please find all the possible collectors.
+
+Collector is a special detector which can be reach by all the other detectrs
+directly or indirectly to collect the data.
+'''
 
 import numpy as np
 import math
